@@ -1,0 +1,41 @@
+---
+title: "SESION 4 INSTALAR PAQUETES"
+author: "CARCAMO MARCOS GAMALIEL YAZID FARITD"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+install.packages("tidyverse")
+library(tidyverse)
+```
+
+You can add options to executable code like this
+
+```{r}
+install.packages("psych")
+library(psych)
+```
+
+```{r}
+install.packages("gt")
+library(gt)
+```
+
+```{r}
+install.packages("knitr")
+library(knitr)
+```
+
+```{r}
+install.packages("rmarkdown")
+library(rmarkdown)
+```
